@@ -11,6 +11,7 @@ start state
 {accept states}
 (current state, input char)->next state
 Repeat previous line for all transitions.
+
 *******NOTE*******
 Any blank lines at the end of a textfile will cause the program to not accept the text file for generation.
 
