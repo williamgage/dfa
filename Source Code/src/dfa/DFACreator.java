@@ -25,7 +25,6 @@ public class DFACreator extends Application {
 		else {
 			run(args[0]);
 		}
-	
 	}
 
 	@Override
@@ -49,19 +48,16 @@ public class DFACreator extends Application {
 				
 		// Read the file.
 		BufferedReader reader;
-		try 
-		{
+		try {
 			reader = new BufferedReader(new FileReader(dfa));
 			String line = reader.readLine();
-			while (line != null) 
-			{
+			while (line != null) {
 				rules.add(line);
 				line = reader.readLine();
 			}
 			reader.close();
 		}
-		catch (Exception ex) 
-		{
+		catch (Exception ex) {
 			System.out.println("Error reading file.");
 			ex.printStackTrace();
 		}
