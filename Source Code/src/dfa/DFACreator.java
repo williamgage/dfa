@@ -19,12 +19,10 @@ public class DFACreator extends Application {
 	public static void main(String[] args) {
 		
 		// Check if text file is provided.
-		if (args.length != 1) 
-		{
+		if (args.length != 1) {
 			launch(args);
 		}
-		else 
-		{
+		else {
 			run(args[0]);
 		}
 	
