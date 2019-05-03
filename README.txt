@@ -15,7 +15,7 @@ Repeat previous line for all transitions.
 Any blank lines at the end of a textfile will cause the program to not accept the text file for generation.
 
 Usage: 
-1) Run the .EXE
+1) Run the .jar
 2) Input a DFA txt file for usage.
 3) Enter any string in the text box, press enter to check string.
 4) Program will automatically test and output the result.
