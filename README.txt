@@ -1,7 +1,7 @@
 ******Created by Willliam Smith (@williamgage)*******
 
 This program is able to take a ruleset of a DFA (language, state list, start and accept states, transitions) 
-from a text file, then check if any user input string passes or fails.
+from a text file and check if any user input string passes or fails.
 
 The format for a text file is as follows, line by line:
 
